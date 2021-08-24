@@ -50,7 +50,7 @@ import { Component } from 'react';
 	        </Section>
 	
 
-	        <Section title={'Statistics'} />
+	        <Section title={'Statistics'}>
 	        {total === 0 ? (
 	            <Notification message="No feedback given" />
 	          ) : 
@@ -61,6 +61,7 @@ import { Component } from 'react';
 	          total={total}
 	          percentage={percentage}
 	        />)}
+          </Section>
 	      </div>
 	    );
 	  }

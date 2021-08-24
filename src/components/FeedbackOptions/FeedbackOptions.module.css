@@ -1,0 +1,21 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button {
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #AFEEEE;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: box-shadow 250ms linear;
+}
+
+.button:hover {
+    box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
